@@ -1,10 +1,8 @@
-# elkproject
-Files for setting up and configuring an Azure Virtual network with Elk monitoring and visualizing on Kibana
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-![](Diagrams/azurenetworkdiagram.png)
+![Azure Network Diagram](Diagrams/azurenetworkdiagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook files may be used to install only certain pieces of it, such as Filebeat.
 
@@ -89,6 +87,4 @@ SSH into the control node and follow the steps below:
 - Copy the configuration file to the control node (Ansible).
 - Update the playbook file to include the host machines that will be configured.
 - Run the playbook, and navigate to [ELKVMIP]:5601/app/kibana to check that the installation worked as expected.
-
-
 
