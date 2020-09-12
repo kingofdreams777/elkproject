@@ -84,7 +84,7 @@ These Beats allow us to collect the following information from each machine: Fil
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the configuration file to the control node (Ansible).
+- Copy the playbook file to the control node (Ansible).
 - Update the playbook file to include the host machines that will be configured.
 - Run the playbook, and navigate to [ELKVMIP]:5601/app/kibana to check that the installation worked as expected.
 
